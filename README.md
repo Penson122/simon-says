@@ -1,12 +1,21 @@
 # simon-says
 A Simon Says game written in JavaScript
 
-TODO:
+## Usage
 
-Create button grid
+* Download all dependencies
+  * `yarn && cd client && yarn`
 
-Create button flashes
+* Run server
+  * `yarn start`
+* Run client
+  * `cd client && yarn start`
+  
+* Run tests
+  * `yarn test`
+  
+## Future Developments
 
-Create game system - flash, start timer, on success increase count goto 1, on failure exit game
-
-
+* Add database for persisting scores
+* Dockerise
+* Post to Heroku
