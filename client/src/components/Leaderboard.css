@@ -1,0 +1,9 @@
+.Title {
+  font-size: 50px;
+  margin-right: 200px;
+}
+
+.Name, .Score {
+  font-size: 30px;
+  margin-right: 20px;
+}

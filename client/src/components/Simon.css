@@ -1,0 +1,71 @@
+.Green {
+  border-radius: 190px 0 0 0;
+  margin-top: 7px;
+  margin-right: 5px;
+  border-color: #4bc10b;
+  border-width: 5px;
+}
+
+.Green:active {
+  background-color: #9cfc67 !important;
+}
+
+.Red {
+  border-radius: 0 190px 0 0;
+  border-color: #c42d2d;
+  border-width: 5px
+}
+
+.Red:active {
+  background-color: #fc646a !important;
+}
+
+.Blue {
+  border-radius: 0 0 190px 0;
+  margin-top: 5px;
+  border-color: #0740c6;
+  border-width: 5px;
+}
+
+.Blue:active {
+  background-color: #5bb8ff !important;
+}
+
+.Yellow {
+  border-radius: 0 0 0 190px;
+  margin-right: 5px;
+  border-width: 5px;
+  border-color: #ffe20a;
+}
+
+.Yellow:active {
+  background-color: #fffdad !important;
+}
+
+.ScoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5ex;
+}
+
+.StartButton {
+  margin-right: 1em;
+  background-color: white;
+  color: black;
+  font-size: 50px;
+}
+
+.UsernameContainer {
+  text-align: center;
+}
+
+.UsernameContainer input {
+  margin-top: 15px;
+  font-size: 30px;
+  border: none;
+}
+
+.UsernameContainer button {
+  font-size: 30px;
+  border: none;
+}

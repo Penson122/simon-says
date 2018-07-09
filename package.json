@@ -1,0 +1,47 @@
+{
+  "name": "simon-says",
+  "version": "1.0.0",
+  "description": "A Simon Says game written in JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest tests --watch",
+    "start": "node app.js",
+    "dev:start": "nodemon index.js",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build",
+    "ci:test": "NODE_ENV=test jest tests",
+    "coverage": "serve -s coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penson122/simon-says.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Penson122/simon-says/issues"
+  },
+  "homepage": "https://github.com/Penson122/simon-says#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "winston": "2"
+  },
+  "devDependencies": {
+    "jest": "^23.3.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "<rootDir>/coverage",
+    "coverageReporters": [
+      "html",
+      "lcov"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/client/"
+    ]
+  }
+}

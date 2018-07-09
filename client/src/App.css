@@ -1,0 +1,18 @@
+* {
+  background-color: #222;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.GameContainer {
+  width: 75vw;
+  float: left;
+}
+
+.LeaderboardContainer {
+  width: 25vw;
+  float: right;
+}

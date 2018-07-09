@@ -1,0 +1,8 @@
+.Button {
+  width: 190px;
+  height: 190px;
+}
+
+.Button:focus {
+  outline: none;
+}
