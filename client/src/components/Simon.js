@@ -72,7 +72,7 @@ class Simon extends React.Component {
       pressPattern: [],
       currentTurn: 0,
       allCorrect: true,
-      presses: 1
+      presses: 0
     });
     this.playPattern([0, 1, 2, 3], 400);
   }
